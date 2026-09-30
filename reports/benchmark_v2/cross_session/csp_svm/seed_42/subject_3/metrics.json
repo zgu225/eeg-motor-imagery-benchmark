@@ -1,0 +1,13 @@
+{
+  "protocol": "cross_session",
+  "model": "csp_svm",
+  "seed": 42,
+  "subject": 3,
+  "n_fit": 240,
+  "n_validation": 48,
+  "n_test": 288,
+  "accuracy": 0.7465277777777778,
+  "macro_f1": 0.7342279688242501,
+  "seconds": 0.3600000000005821,
+  "epochs": 0
+}

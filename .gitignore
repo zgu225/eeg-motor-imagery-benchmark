@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+/data/
+outputs/
+# Local raw-data cache created by MOABB on Windows (approximately 1 GB).
+C-/
+
+# Keep aggregate results and key figures; per-fold learning curves are reproducible.
+reports/figures/*_training.png
+dist/
+*.pt
+*.joblib
+reports/legacy_source_*.zip

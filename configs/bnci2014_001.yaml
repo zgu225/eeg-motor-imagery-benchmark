@@ -1,0 +1,25 @@
+dataset:
+  name: BNCI2014_001
+  subjects: null
+  tmin: 0.5
+  tmax: 4.0
+  fmin: 8.0
+  fmax: 30.0
+
+training:
+  seed: 42
+  batch_size: 64
+  epochs: 40
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  validation_size: 0.2
+  patience: 8
+
+model:
+  name: eegnet
+  dropout: 0.5
+
+output:
+  results_dir: reports/results
+  figures_dir: reports/figures
+

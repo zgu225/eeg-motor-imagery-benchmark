@@ -1,0 +1,20 @@
+[
+  {
+    "protocol": "cross_session",
+    "difference_pp": -24.228395061728392,
+    "descriptive_bootstrap_95ci_pp": [
+      -32.17689043209877,
+      -15.932677469135815
+    ],
+    "exploratory_signflip_p": 0.00390625
+  },
+  {
+    "protocol": "loso",
+    "difference_pp": -2.3341049382716053,
+    "descriptive_bootstrap_95ci_pp": [
+      -9.06635802469136,
+      4.0128279320987605
+    ],
+    "exploratory_signflip_p": 0.5234375
+  }
+]

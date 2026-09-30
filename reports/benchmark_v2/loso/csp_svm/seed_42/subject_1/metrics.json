@@ -1,0 +1,13 @@
+{
+  "protocol": "loso",
+  "model": "csp_svm",
+  "seed": 42,
+  "subject": 1,
+  "n_fit": 4032,
+  "n_validation": 576,
+  "n_test": 576,
+  "accuracy": 0.4461805555555556,
+  "macro_f1": 0.36824933544076444,
+  "seconds": 4.75,
+  "epochs": 0
+}

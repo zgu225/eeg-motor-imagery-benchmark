@@ -1,0 +1,68 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Verified Benchmark (resume supported)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/run_benchmark.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Regression Tests",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "unittest",
+      "args": ["discover", "-s", "tests", "-v"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Verify BCI Environment",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}\\scripts\\verify_env.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Within-Subject CSP+LDA",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}\\scripts\\run_within_subject.py",
+      "args": ["--model", "csp_lda"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Within-Subject Lawhern EEGNet",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}\\scripts\\run_within_subject.py",
+      "args": ["--model", "lawhern_eegnet"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Cross-Subject CSP+LDA",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}\\scripts\\run_cross_subject.py",
+      "args": ["--model", "csp_lda"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Cross-Subject Lawhern EEGNet",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}\\scripts\\run_cross_subject.py",
+      "args": ["--model", "lawhern_eegnet"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Summarize Experiment Results",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}\\scripts\\summarize_results.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}

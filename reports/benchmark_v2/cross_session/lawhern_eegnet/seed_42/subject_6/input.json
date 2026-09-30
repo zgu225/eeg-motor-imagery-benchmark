@@ -1,0 +1,46 @@
+{
+  "model": "lawhern_eegnet",
+  "n_channels": 22,
+  "n_times": 876,
+  "channels": [
+    "Fz",
+    "FC3",
+    "FC1",
+    "FCz",
+    "FC2",
+    "FC4",
+    "C5",
+    "C3",
+    "C1",
+    "Cz",
+    "C2",
+    "C4",
+    "C6",
+    "CP3",
+    "CP1",
+    "CPz",
+    "CP2",
+    "CP4",
+    "P1",
+    "Pz",
+    "P2",
+    "POz"
+  ],
+  "sfreq": 250.0,
+  "units": "V",
+  "label_mapping": {
+    "feet": 0,
+    "left_hand": 1,
+    "right_hand": 2,
+    "tongue": 3
+  },
+  "dropout": 0.5,
+  "preprocessing": {
+    "name": "BNCI2014_001",
+    "subjects": null,
+    "tmin": 0.5,
+    "tmax": 4.0,
+    "fmin": 8.0,
+    "fmax": 30.0
+  }
+}

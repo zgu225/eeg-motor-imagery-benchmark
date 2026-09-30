@@ -1,0 +1,13 @@
+{
+  "protocol": "loso",
+  "model": "eegnet",
+  "seed": 42,
+  "subject": 3,
+  "n_fit": 4032,
+  "n_validation": 576,
+  "n_test": 576,
+  "accuracy": 0.5902777777777778,
+  "macro_f1": 0.5404498191681736,
+  "seconds": 73.06299999999828,
+  "epochs": 17
+}

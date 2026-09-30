@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Verify BCI Environment",
+      "type": "shell",
+      "command": ".\\.venv\\Scripts\\python.exe",
+      "args": ["scripts\\verify_env.py"],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Within-Subject CSP+LDA",
+      "type": "shell",
+      "command": ".\\.venv\\Scripts\\python.exe",
+      "args": ["scripts\\run_within_subject.py", "--model", "csp_lda"],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Within-Subject Lawhern EEGNet",
+      "type": "shell",
+      "command": ".\\.venv\\Scripts\\python.exe",
+      "args": ["scripts\\run_within_subject.py", "--model", "lawhern_eegnet"],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Cross-Subject CSP+LDA",
+      "type": "shell",
+      "command": ".\\.venv\\Scripts\\python.exe",
+      "args": ["scripts\\run_cross_subject.py", "--model", "csp_lda"],
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

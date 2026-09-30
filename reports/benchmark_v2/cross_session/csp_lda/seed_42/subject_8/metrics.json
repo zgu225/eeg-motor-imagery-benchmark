@@ -1,0 +1,13 @@
+{
+  "protocol": "cross_session",
+  "model": "csp_lda",
+  "seed": 42,
+  "subject": 8,
+  "n_fit": 240,
+  "n_validation": 48,
+  "n_test": 288,
+  "accuracy": 0.7708333333333334,
+  "macro_f1": 0.7690319421015399,
+  "seconds": 0.43800000000192085,
+  "epochs": 0
+}

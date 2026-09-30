@@ -1,0 +1,13 @@
+{
+  "protocol": "cross_session",
+  "model": "shallow_convnet",
+  "seed": 42,
+  "subject": 6,
+  "n_fit": 240,
+  "n_validation": 48,
+  "n_test": 288,
+  "accuracy": 0.2881944444444444,
+  "macro_f1": 0.18282585470085472,
+  "seconds": 4.75,
+  "epochs": 10
+}

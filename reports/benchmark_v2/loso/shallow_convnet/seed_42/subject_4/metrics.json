@@ -1,0 +1,13 @@
+{
+  "protocol": "loso",
+  "model": "shallow_convnet",
+  "seed": 42,
+  "subject": 4,
+  "n_fit": 4032,
+  "n_validation": 576,
+  "n_test": 576,
+  "accuracy": 0.3263888888888889,
+  "macro_f1": 0.3225694101860805,
+  "seconds": 67.76499999999942,
+  "epochs": 10
+}

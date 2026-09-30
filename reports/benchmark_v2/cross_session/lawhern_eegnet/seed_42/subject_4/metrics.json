@@ -1,0 +1,13 @@
+{
+  "protocol": "cross_session",
+  "model": "lawhern_eegnet",
+  "seed": 42,
+  "subject": 4,
+  "n_fit": 240,
+  "n_validation": 48,
+  "n_test": 288,
+  "accuracy": 0.3402777777777778,
+  "macro_f1": 0.33159545539201085,
+  "seconds": 5.327999999997701,
+  "epochs": 19
+}

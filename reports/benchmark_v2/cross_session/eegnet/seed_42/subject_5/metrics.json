@@ -1,0 +1,13 @@
+{
+  "protocol": "cross_session",
+  "model": "eegnet",
+  "seed": 42,
+  "subject": 5,
+  "n_fit": 240,
+  "n_validation": 48,
+  "n_test": 288,
+  "accuracy": 0.2534722222222222,
+  "macro_f1": 0.1982026077385488,
+  "seconds": 3.8590000000003783,
+  "epochs": 13
+}
